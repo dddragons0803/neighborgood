@@ -430,17 +430,17 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "PostCards",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "PostCards",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "About Us",
     url: "#roadmap",
   },
   {

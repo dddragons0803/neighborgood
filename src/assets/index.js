@@ -22,7 +22,8 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
-import robot from "./hero/robot.jpg";
+import neighbor from './hero/neighbor.webp';
+import logo from './hero/logo.png'
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -39,6 +40,10 @@ import slack from "./collaboration/slack.png";
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
+import ser1 from './services/ser1.webp';
+import ser2 from './services/ser2.webp';
+import ser3 from './services/ser3.webp';
+import ser4 from './services/ser4.webp';
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -94,12 +99,17 @@ export {
   recording03,
   recording01,
   disc02,
+  ser1,
+  ser2,
+  ser3,
+  ser4,
   chromecast,
   sliders04,
   loading,
   background,
   curve,
-  robot,
+  logo,
+  neighbor,
   heroBackground,
   curve1,
   curve2,

@@ -36,6 +36,12 @@ import {
   yourlogo,
 } from "../assets";
 
+import about from '../assets/hero/about.webp'
+
+
+
+import { ser1,ser2,ser3,ser4 } from "../assets";
+
 export const navigation = [
   {
     id: "0",
@@ -94,56 +100,52 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    title: "About Us",
+    text: "NeighborGood is on a mission to provide the simplest platform for neighborhoods to form connections & community. We are going after this by creating an Al agent that acts as the highly-social extrovert neighbor who finds symbiotic activities for people to do together.We offer users the ability to screen potential nearby connections and arrange shared face-to-face activities. Our team previously founded Foresight Institute, Persist Ventures, & Systemic Altruism..",
     date: "May 2023",
     status: "done",
-    imageUrl: roadmap1,
+    imageUrl: about,
     colorful: true,
   },
-  {
-    id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap2,
-  },
-  {
-    id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap3,
-  },
-  {
-    id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap4,
-  },
+  // {
+  //   id: "1",
+  //   title: "Gamification",
+  //   text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+  //   date: "May 2023",
+  //   status: "progress",
+  //   imageUrl: roadmap2,
+  // },
+  // {
+  //   id: "2",
+  //   title: "Chatbot customization",
+  //   text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+  //   date: "May 2023",
+  //   status: "done",
+  //   imageUrl: roadmap3,
+  // },
+  // {
+  //   id: "3",
+  //   title: "Integration with APIs",
+  //   text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+  //   date: "May 2023",
+  //   status: "progress",
+  //   imageUrl: roadmap4,
+  // },
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Al can suggest matches and activities, making connection even easier. LLMs enable semantic understanding of wants and needs, allowing the neighborhood connector - formerly the local extrovert - to instead be an Al agent.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Neighborhood norms have evolved away from spontaneous connections.Today we prefer to screen our contacts online before meeting in person. We screen work colleagues using LinkedIn; we screen activity participants on Facebook; we screen romance candidates using online dating services.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "What's needed now is an app that lets us share specific info that we select, with nearby neighbors that we also select-just as we can do now on Linkedin, but for our social lives with nearby neighbors.",
   },
-  {
-    id: "2",
-    title: "Top-notch Security",
-  },
+
 ];
 
 export const collabApps = [
@@ -244,53 +246,37 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Connect, Discover , Attend : Meet Our Last Neighbour.",
+    text: "Connect, Discover , Attend : Meet Our Last Neighbour.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: ser1,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Connect with neighbours , Discover Local Events.",
+    text: "Connect with neighbours , Discover Local Events.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: ser2,
     light: true,
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Build your Neighbour Network , Connect Now.",
+    text: "Build your Neighbour Network , Connect Now.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: ser3,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Get nearby support around you Easily.",
+    text: "Get nearby support around you Easily.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    imageUrl: ser4,
     light: true,
-  },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
   },
 ];
 
